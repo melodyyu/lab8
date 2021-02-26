@@ -1,7 +1,5 @@
 function initCamera() {
   // Uncomment and fill in the correct selectors below.
-
-  // For Reference:
   capture($('#camera-video'),
         $('#camera-canvas'),
         $('#camera-button'));
@@ -43,4 +41,3 @@ function capture(video, canvas, snapshotButton) {
       successCallback, errorCallback);
 
 };
-
